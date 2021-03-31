@@ -15,7 +15,7 @@ public class HomeWork03 {
         do{
             int numToGuess = makeSomeNum(RANGE_OF_NUMBER);
 
-            for (int i = 0; i <= COUNT_ATTEMPTS; i++) {
+            for (int i = 1; i <= COUNT_ATTEMPTS; i++) {
                 System.out.print("Enter the number from 0 to " +(RANGE_OF_NUMBER-1) +" > ");
                 int userGuess = scan.nextInt();
                 if(userGuess==numToGuess){
