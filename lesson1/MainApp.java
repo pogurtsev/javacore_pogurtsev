@@ -47,7 +47,7 @@ public class MainApp {
         checkPositNegat (-8);
 
         // задание 6
-        System.out.println("Число -8 положительное? = " +chkPositNegat (-8));
+        System.out.println("Число -8 отрицательное? = " +ifNumIsNegative (-8));
 
         // задание 7
         String name1 = "Алибабаевич";
@@ -84,8 +84,8 @@ public class MainApp {
     }
 
     // задание 6
-    public static boolean chkPositNegat (int a){
-        return !(a<0);
+    public static boolean ifNumIsNegative (int a){
+        return a<0;
     }
 
     // задание 7
