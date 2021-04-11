@@ -1,5 +1,6 @@
 package ru.geekbrains.lesson4;
 
+import java.util.Arrays;
 import java.util.Random;
 import java.util.Scanner;
 
@@ -44,9 +45,7 @@ public class HomeWork04 {
     public static void initMap() {
         map = new char[SIZE][SIZE];
         for (int i = 0; i < map.length; i++) {
-            for (int j = 0; j < map[i].length; j++) {
-                map[i][j] = DOT_EMPTY;
-            }
+            Arrays.fill(map[i], DOT_EMPTY);
         }
     }
 
